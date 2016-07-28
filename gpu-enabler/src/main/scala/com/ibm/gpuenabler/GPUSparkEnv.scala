@@ -47,7 +47,7 @@ private[gpuenabler] class GPUSparkEnv() {
                     isLocal)
 }
 
-private[gpuenabler] object GPUSparkEnv extends _Logging {
+private[gpuenabler] object GPUSparkEnv { //extends _Logging {
   private var env : GPUSparkEnv = _
   private var oldSparkEnv : SparkEnv = _
 
